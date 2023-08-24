@@ -587,7 +587,7 @@ c ------------------------------------------------------------------
       real Ez1, fz10, fmag, frup, fsite, fztor, fevt
       real period1, a3, Z10, ZTor, a9, d, b12, lnY, Fs, a11si, a11ss, phiss, phis2s, a1, a4,a6,a12
       integer count1, count2, iflag, regionflag
-      real n, c, c4, c1, faba, R, depth, specT, tau, phi, ftype, period2
+      real b, n, c, c4, c1, faba, R, depth, specT, tau, phi, ftype, period2
 
 
       data period  /0, 0.01, 0.02, 0.05, 0.075, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.75, 1, 1.5, 2, 
