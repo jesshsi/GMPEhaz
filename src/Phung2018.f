@@ -582,7 +582,7 @@ c ------------------------------------------------------------------
 
       real periodT, a5T, a13T, MrefT, a2T, a14T, dela1T, dela4T, a6jpT, a12jpT, a8jpT
       real phisstjT,  phis2stjT, tau0T, a1twT, a4twT,  a7T, a6twT, a12twT, a8T
-      real a11T, a10T, phisstwT, phis2stwT, tautwT, phitwT
+      real a11T, a10T, phisstwT, phis2stwT, tautwT, phitwT, bT
    
       real Ez1, fz10, fmag, frup, fsite, fztor, fevt
       real period1, a3, Z10, ZTor, a9, d, b12, lnY, Fs, a11si, a11ss, phiss, phis2s, a1, a4,a6,a12
