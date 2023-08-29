@@ -576,7 +576,7 @@ c ------------------------------------------------------------------
 
       real a1tw(MAXPER), a4tw(MAXPER),  a7(MAXPER), a6tw(MAXPER), a12tw(MAXPER), a8(MAXPER),
      1     a11(MAXPER), a10(MAXPER),
-     1     phisstw(MAXPER), phis2stw(MAXPER), tautw(MAXPER), phitw(MAXPER)
+     1     phisstw(MAXPER), phis2stw(MAXPER), tautw(MAXPER), phitw(MAXPER), b(MAXPER)
 
       real sigma, lnSa, pgaRock, vs30, rRup, disthypo, mag 
 
