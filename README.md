@@ -3,11 +3,12 @@
 
 # GMPEhaz
 
-A R package for wrapping GMPE functions from Norman Abrahamson's fortran [HAZ](https://github.com/abrahamson/HAZ) code.
+A R package for wrapping GMPE functions from Norman Abrahamson's fortran [HAZ](https://github.com/abrahamson/HAZ) code. Modified from Personlin.
+Coefficients in Phung18 Sub and Chao18 Sub have been modified. 
 
 # Install
 
 ```{r}
 install.packages("devtools")
-devtools::install_github("personlin/GMPEhaz")
+devtools::install_github("jesshsi/GMPEhaz")
 ```
