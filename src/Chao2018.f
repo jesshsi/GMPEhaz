@@ -52,7 +52,7 @@ c -------------------------------------------------------------------
       implicit none
       
       integer MAXPER                                                                            
-      parameter (MAXPER=21)                                                     
+      parameter (MAXPER=20)                                                     
       real ftype, dist, mag, lnSa, sigma, specT, lnYref, vs, Ztor, Z10, period1
       real period(MAXPER), c1(MAXPER), c2(MAXPER), c3(MAXPER), c4(MAXPER), c5(MAXPER)
       real c6(MAXPER), c7(MAXPER), c8(MAXPER), c9(MAXPER), c10(MAXPER), c11(MAXPER)
