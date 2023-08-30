@@ -393,7 +393,7 @@ C Interpolate the coefficients for the requested spectral period.
 C      h = 10.0
       n = 2.0
       Mc = 7.1
-      Mref = 5.5
+      Mref = 6.5
       Mmax = 8
       Rrupref = 0.0
       Vs30ref = 760.0
