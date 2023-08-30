@@ -5,7 +5,7 @@ c ------------------------------------------------------------------
      1            vs30_class, attenName, period2, iflag, sourcetype, phi, tau, msasflag )         
 
       implicit none
-C    2018/08/31 revised
+C    2020/08/30 revised
       real mag, dip, fType, dist, vs, SA1180,
      1      Z10,  ZTOR, fltWidth, lnSa, sigma, lnY, vs30_rock, sourcetype
       real Fn, Frv, specT, period2, CRjb, phi, tau, z10_rock, SA_rock
@@ -199,7 +199,7 @@ c     Sourcetype = 0 Crustal
 c     Sourcetype = 1 Subduction 
                                                                        
 C Find the requested spectral period and corresponding coefficients
-      nper = 21
+      nper = 20
 
 C First check for the PGA case (i.e., specT=0.0) 
       if (specT .eq. 0.0) then
