@@ -243,7 +243,8 @@ C First check for the PGA case (i.e., specT=0.0)
         phisssb2T = phisssb2(1)
         phis2sT = phis2s(1)
        goto 1011
-
+       endif
+       
 C Now loop over the spectral period range of the attenuation relationship.
          do i=2,nper-1
             if (specT .ge. period(i) .and. specT .le. period(i+1) ) then
