@@ -243,52 +243,9 @@ C First check for the PGA case (i.e., specT=0.0)
         phisssb2T = phisssb2(1)
         phis2sT = phis2s(1)
        goto 1011
-C   Function Form for PGV Regression     
-       elseif (specT .eq. -2.0) then
-         period1 = period(2)
-         c1T = c1(2)
-         c2T = c2(2)
-         c3T = c3(2)
-         c4T = c4(2)
-         c5T = c5(2)
-         c6T = c6(2)
-         c7T = c7(2)
-         c8T = c8(2)
-         c9T = c9(2)
-         c10T = c10(2)
-         c11T = c11(2)
-         c12T = c12(2)
-         c13T = c13(2)
-         c14T = c14(2)
-         c15T = c15(2)
-         c16T = c16(2)
-         c17T = c17(2)
-         c18T = c18(2)
-         c19T = c19(2)
-         c20T = c20(2)
-         c21T = c21(2)
-         c22T = c22(2)
-         c23T = c23(2)
-         c24T = c24(2)
-         c25T = c25(2)
-         c26T = c26(2)
-         c27T = c27(2)
-         c28T = c28(2)
-         c29T = c29(2)        
-         c30T = c30(2)        
-         taucr1T = taucr1(2)
-         taucr2T = taucr2(2)
-         tausb1T = tausb1(2)
-         tausb2T = tausb2(2)
-         phisscr1T = phisscr1(2)
-         phisscr2T = phisscr2(2)
-         phisssb1T = phisssb1(2)
-         phisssb2T = phisssb2(2)
-         phis2sT = phis2s(2)
-         goto 1011      
-       endif
+
 C Now loop over the spectral period range of the attenuation relationship.
-         do i=3,nper-1
+         do i=2,nper-1
             if (specT .ge. period(i) .and. specT .le. period(i+1) ) then
                count1 = i
                count2 = i+1
